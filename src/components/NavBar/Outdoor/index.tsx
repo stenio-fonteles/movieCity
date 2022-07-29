@@ -8,7 +8,6 @@ export default function Outdoor({url}) {
     if(find === undefined){
        return
     }
-console.log(url)
     return(
        <>
         <Poster src={`https://image.tmdb.org/t/p/original/${find.backdrop_path}` }/>

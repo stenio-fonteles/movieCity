@@ -10,8 +10,8 @@ export default function NavBar() {
                 <li>Explore</li>
             </ul>
             <ul>
-                <Meet/>
                 <Li></Li>
+                <Meet/>
                 <Notify/>
                 <Account/>
                 
