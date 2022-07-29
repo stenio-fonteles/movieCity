@@ -6,7 +6,10 @@ import {Search} from "@styled-icons/boxicons-regular/Search"
 export const Account = styled(User)`
   width:25px;
   `
-
+export const H2 = styled.h2`
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-left: 2%;
+`
 export const Meet = styled(Search) `
     width:25px;
     margin-right: 10px;
@@ -30,10 +33,13 @@ export const Nav = styled.div`
     width: 100%;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    color:#748a93;
+    color:white;
     font-size: 1rem;
-    margin-top: 1%;
-
+    position: absolute;
+    padding-top:1%;
+    padding-bottom:1%;
+    top:0%;
+    background-color: rgba(0, 0, 0, 0.1);
     ul{
         cursor: pointer;
         display: flex;

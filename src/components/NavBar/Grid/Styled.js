@@ -5,7 +5,7 @@ export const Section = styled.div`
         display:flex;
         flex-direction: row;
         width: 300%;
-        
+        background-color: black;
 `
 // export const Img = styled.img`
 //     width:20%;
