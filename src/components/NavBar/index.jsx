@@ -1,13 +1,16 @@
-import { Nav,Account, Notify,Meet,Li,H2 } from "./styled"
+import { Nav,Account, Notify,Meet,Li,H2,DECO } from "./styled"
+import { Link } from "react-router-dom";
 export default function NavBar() {
     return(
         <Nav>
                 <H2>MovieCity</H2>
             <ul>
-                <li>Filmes</li>
-                <li>Séries</li>
+                <li onClick={()=>{window.location = "#filme";}}>Filmes</li>
+                <li onClick={() => {window.location = "#series"}}>Séries</li>
+                <Link to={'/assistir'}>
+                    <DECO>Assistir agora</DECO>
+                </Link> 
                 <li>Originais</li>
-                <li>Explore</li>
             </ul>
             <ul>
                 <Li></Li>

@@ -37,12 +37,3 @@ export const Score = styled(Stars)`
     height: 15px;
     margin-right: 5%;
 `
-
-// export const Score = styled.p`
-//         color:red;
-//         background-color: black;
-//         padding:10px;
-//         width:30px;
-//         border-radius: 50%;
-//         border:3px solid red;
-// `

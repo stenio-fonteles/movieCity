@@ -15,7 +15,7 @@ export default function Grid({info,infoSeries,infoNewMovies}){
                 )
             })}
         </Section>
-            <Title>filmes</Title>
+            <Title id="filme">filmes</Title>
             <Section>
                 {info.map((data)=>{ 
                     let url = `https://image.tmdb.org/t/p/original/${data.poster_path}`
@@ -26,7 +26,7 @@ export default function Grid({info,infoSeries,infoNewMovies}){
                     )
                 })}
             </Section>
-            <Title>Series</Title>
+            <Title id="series">Series</Title>
             <Section>
                 {infoSeries.map((data)=>{
                     let url = `https://image.tmdb.org/t/p/original/${data.poster_path}`

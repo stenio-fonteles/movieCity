@@ -16,6 +16,9 @@ export const Section = styled.div`
     border-left: 2px solid white;
     width:auto;
     padding-left: 2%;
+    @media(max-width: 1144px) {
+            display:none;
+    }
    
    
     `
@@ -49,6 +52,7 @@ export const SubTitle = styled.p`
       border: 1px solid orange;  
     }
 
+   
 `
 
 export const Button = styled.button`

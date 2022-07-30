@@ -22,9 +22,10 @@ export const Li = styled.input`
 @media(max-width: 640px) {
     display:none
   }
+  
 `
 export const Notify = styled(NotificationsCircle) `
-    width:25px
+    width:25px;
 `
 export const Nav = styled.div`
     display: flex;
@@ -45,6 +46,11 @@ export const Nav = styled.div`
         display: flex;
         justify-content: space-around;
         gap: 20px;
+        @media(max-width: 830px) {
+            display:none;
+        }
+        
+      
        
         margin-right: 2%;
         li:hover{
@@ -55,4 +61,10 @@ export const Nav = styled.div`
         }
         
     }
+`
+export const DECO = styled.li`
+   border: none;
+    color:white;
+    outline: none;
+    text-decoration: none !important;
 `
