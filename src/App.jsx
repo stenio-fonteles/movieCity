@@ -1,12 +1,8 @@
-import Api from './Api'
-import NavBar from './components/NavBar'
-function App() {
+import Routes from "./Routes/index"
 
+function App() {
   return (
-   <>
-    
-    <Api/>
-   </>
+     <Routes/>
   )
 }
 

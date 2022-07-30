@@ -4,8 +4,8 @@ export default function NavBar() {
         <Nav>
                 <H2>MovieCity</H2>
             <ul>
-                <li>Séries</li>
                 <li>Filmes</li>
+                <li>Séries</li>
                 <li>Originais</li>
                 <li>Explore</li>
             </ul>

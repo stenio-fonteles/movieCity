@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
-import NavBar from "..";
+import NavBar from "../NavBar";
 import { Poster,Title,SubTitle,Section,Button} from "./styled";
-
+import { Link } from "react-router-dom";
 export default function Outdoor({url}) {
     const numero = Math.floor(Math.random() * url.length);
     var find = url[numero]
@@ -15,7 +14,7 @@ export default function Outdoor({url}) {
         <Section>
             <Title>{find.title}</Title>
             <SubTitle>{find.overview}</SubTitle>
-            <Button>Comprar</Button>
+            <Link to={`/details?q${find.id}`}><Button>Comprar</Button></Link>
         </Section>
        </>
     )
